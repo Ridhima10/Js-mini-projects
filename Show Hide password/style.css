@@ -1,0 +1,15 @@
+*{
+    font-family: "Poppins",sans-serif;
+}
+.container{
+    height: 70vh;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.copy-img{
+    position: relative;
+    bottom: 2.4rem;
+    left: 22.5rem;
+    height: 1.5rem;
+}
