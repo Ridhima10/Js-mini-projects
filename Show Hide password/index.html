@@ -19,16 +19,16 @@
   <body class="bg-dark-subtle">
     <div class="container d-flex justify-content-start align-items-center">
       <div class="box">
-        <!-- <h1>Generate a</h1> -->
-        <h1 class="text-success text-decoration-underline">Show / Hide Password</h1>
+        <h1 class="text-info-emphasis text-decoration-underline">Show / Hide Password</h1>
         <input
           type="password"
           name=""
           id="password"
-          class="form-control form-control-lg mt-4 border border-2 border-success-subtle"
+          class="form-control form-control-lg mt-4"
           placeholder="Password"
         />
         <img src="img/eye-off-fill.svg" class="copy-img" id="showPassword" onclick="ShowHidePassword()" /> 
+        <p id="msg">Password is <span id="strength"></span></p>
       </div>
     </div>
     <script src="script.js"></script>

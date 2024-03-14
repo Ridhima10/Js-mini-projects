@@ -13,3 +13,12 @@
     left: 22.5rem;
     height: 1.5rem;
 }
+#msg{
+    display: none;
+}
+#password{
+    border-color: navy ; /*it has higher specificity than class */
+}
+/* input.form-control{
+    border-color: navy ; 
+} */
