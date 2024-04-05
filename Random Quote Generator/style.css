@@ -1,0 +1,7 @@
+.container {
+  height: 70vh;
+}
+.box {
+  width: 50vw !important;
+  height: 35vh;
+}
